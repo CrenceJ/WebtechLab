@@ -1,0 +1,72 @@
+@keyframes fadein{
+	from {opacity:0;}
+	to   {opacity:1;}
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes wobble {
+  	0% {transform: translateY(0%);}
+  	15% {transform: translateY(-5%);}
+  	30% {transform: translateY(4%);}
+  	45% {transform: translateY(-3%);}
+	60% {transform: translateY(2%);}
+	75% {transform: translateY(-1%);}
+	100% {transform: translateY(0%);}
+}
+body{
+	animation:fadein 2s;
+	background:linear-gradient(150deg, #FAFFD1 0%, #FAFFD1 65%, rgba(44, 116, 68, 0.8) 65%, rgba(44, 116, 68, 0.8) 80%, #202020 80%, #202020 100%);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#202020;
+}
+li{
+    float:left;
+}
+li a{
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+li a .badge{
+  position: absolute;
+  top: -0px;
+  right: -10px;
+  padding: 3px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+	
+}
+}
+#wrapper{
+    width:1350px;
+	margin:auto;
+	border-radius:10px;
+	background:rgba(255,255,255,0.5);
+}
