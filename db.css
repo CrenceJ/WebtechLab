@@ -1,0 +1,24 @@
+
+//Css for indexeddb //
+@include theme($bg-White, $blue);
+
+.logger {
+  background: $bg-light;
+  margin: 35px;
+  padding: 10px 20px;
+  border-radius: 5px 5px;
+  width: auto;
+  min-width: 1000px;
+
+.DEBUG {}
+  .INFO { color: $light-blue-400 !important }
+  .LAT { color: $yellow-400 !important }
+  .LONG { color: $yellow-400 !important }
+  .SUCCESS { color: $green !important }
+  .TYPE { color: $red-400 !important }
+  .TIME { color: $grey-600 !important }
+  
+  .prop {
+    color: $deep-purple-300;
+  }
+}
