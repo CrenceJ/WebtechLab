@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 0;}
+
+.topnav {
+
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    border-bottom: solid;
+    border-color: black;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+ul.topnav li a:hover {background-color: pink;}
+
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+
+</style>
+</head>
+<body>
+<div id="banner">
+  <img src="images/logo.png" style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+<br>
+<ul class="topnav" style="">
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="maps.html">Maps</a></li>
+  <li><a href="#contact">Goods</a></li>
+</ul>
+</div>
+<h1> <center> DISASTER RISK REDUCTION AND MANAGEMENT </center></h1>
+  
+ <center>
+    <font size="5" color="black"><pre> The Disaster Risk Reduction and Management helps the local and private ogranization <br>to monitor the relief goods and track the location of the person who needs help. </font></pre>
+
+    <font size="5" color="black"><pre>Disaster Risk Reduction and Management has its very own feature which is the <br>notification and geolocation.</font></pre>
+
+
+    <font size="5" color="black"><pre> In the notification the user can send a relief good to the local and private organization <br>that will help the person that is in need. The relief good will be received by the <br>organization, wherein the user will be notified if the given good is received.</font></pre>
+</center> 
+
+<h1><center>What is disaster risk reduction and management ?</center></h1>
+
+</body>
+</html>c
