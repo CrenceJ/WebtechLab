@@ -1,0 +1,29 @@
+{
+  "author": "Group2",
+  "background_color": "#000000",
+  "description": "evacuation center Locator App.",
+  "display": "standalone", 
+  "manifest_version": 2,
+  "name": "Disaster Rist Reduction and Management",
+  "orientation": "portrait",
+  "short_name": "DRRM",
+  "start_url": "/PWA/index.html",
+  "theme_color": "#000000",
+  "version": "0.1",
+  "icons":
+  [
+    {
+	  "src": "images/logo.png",
+	  "sizes": "64x64",
+	  "type": "image/png"
+	}, {
+	  "src": "images/logo.png",
+	  "sizes": "128x128",
+	  "type": "image/png"
+	}, {
+	  "src": "images/logo.png",
+	  "sizes": "192x192",
+	  "type": "image/png"
+	}
+  ]
+}
